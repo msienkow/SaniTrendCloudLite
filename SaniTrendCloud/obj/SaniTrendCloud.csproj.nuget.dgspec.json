@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\VSCode\\SaniTrendCloudLite\\SaniTrendCloud\\SaniTrendCloud.csproj": {}
+  },
+  "projects": {
+    "D:\\VSCode\\SaniTrendCloudLite\\SaniTrendCloud\\SaniTrendCloud.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VSCode\\SaniTrendCloudLite\\SaniTrendCloud\\SaniTrendCloud.csproj",
+        "projectName": "SaniTrendCloud",
+        "projectPath": "D:\\VSCode\\SaniTrendCloudLite\\SaniTrendCloud\\SaniTrendCloud.csproj",
+        "packagesPath": "C:\\Users\\matt.sienkowski\\.nuget\\packages\\",
+        "outputPath": "D:\\VSCode\\SaniTrendCloudLite\\SaniTrendCloud\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\matt.sienkowski\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "libplctag": {
+              "target": "Package",
+              "version": "[1.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.210\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
